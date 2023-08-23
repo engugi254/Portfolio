@@ -29,6 +29,9 @@ import jitu from "./company/thejitu.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import onlineBank from "./onlineBank.png";
+import summarizer from "./summarizer.png";
+import fitnessApp from "./fitnessApp.png";
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  onlineBank, 
+  summarizer,
+  fitnessApp
 };

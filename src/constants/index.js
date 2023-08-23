@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  onlineBank,
+  summarizer,
+  fitnessApp,
 } from "../assets";
 
 export const navLinks = [
@@ -93,10 +96,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -104,6 +103,10 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Three JS",
+    icon: threejs,
+  }
 ];
 
 const experiences = [
@@ -142,49 +145,36 @@ const testimonials = [
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  }
 ];
 
 const projects = [
   {
-    name: "SocialHub Website",
+    name: "Fitness Website",
     description:
-      "A social media website where one can signup, follow other users, create posts, comment and like to other posts as well as create individual profile.",
+      "A website that helps a person to explore different kinds of exercises and how you can do them.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mssql",
+        name: "rapid api",
         color: "green-text-gradient",
       },
       {
-        name: "node.js",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/engugi254/Social-Website",
+    image: fitnessApp,
+    source_code_link: "https://github.com/engugi254/fitnessApp",
+    live_demo_link: "https://engugi254.github.io/fitnessApp",
   },
   {
     name: "Marvels",
+
+
     description:
       "Web application that enables a user to see latest marvel movies and select comics or characters.",
     tags: [
@@ -203,6 +193,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/engugi254/Marvel",
+    live_demo_link: "https://engugi254.github.io/Marvel",
   },
   {
     name: "Country Flags",
@@ -224,7 +215,71 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/engugi254/countryFlags",
+    live_demo_link: "https://engugi254.github.io/countryFlags",
   },
+  {
+    name: "Online Banking",
+    description:
+      "A website that enables a users and businesses to manage their money. It offers credit, rewards and bank transfers",
+      tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: onlineBank,
+    source_code_link: "https://github.com/engugi254/Banktr",
+    live_demo_link: "https://engugi254.github.io/Banktr",
+  },
+  {
+    name: "SocialHub Website",
+    description:
+      "A social media website where one can signup, follow other users, create posts, comment and like to other posts as well as create individual profile.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mssql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/engugi254/Social-Website",
+    live_demo_link: "https://github.com/engugi254/Social-Website",
+  },
+  {
+    name: "Article Summarizer",
+    description:
+      "A website that summarizes articles by entering a link with the article. It uses chat GPT 4 api to summarize thee articles.",
+    tags: [
+      {
+        name: "chatGPT 4 Api",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: summarizer,
+    source_code_link: "https://github.com/engugi254/Summarizer",
+    live_demo_link: "https://engugi254.github.io/Summarizer",
+  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
