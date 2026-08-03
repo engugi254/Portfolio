@@ -39,7 +39,7 @@ jobs:
         with:
           # If your build creates a 'build' folder (Create-React-App), use path: './build'
           # If your build creates a 'dist' folder (Vite), use path: './dist'
-          path: './build'
+          path: './dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
