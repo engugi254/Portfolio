@@ -26,6 +26,7 @@ import shopify from "./company/shopify.png";
 import dblogo from "./company/dblogo.png";
 import jitu from "./company/thejitu.jpg";
 
+import fyndora from "./fyndora.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -64,5 +65,6 @@ export {
   tripguide,
   onlineBank, 
   summarizer,
-  fitnessApp
+  fitnessApp,
+  fyndora
 };
