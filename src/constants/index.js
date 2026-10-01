@@ -1,5 +1,6 @@
 import {
   mobile,
+  fyndora,
   backend,
   creator,
   web,
@@ -149,7 +150,29 @@ const testimonials = [
 ];
 
 const projects = [
-  {
+    {
+    name: "Fyndora E-commerce",
+    description:
+      "A full-stack online shop with product browsing, cart, M-Pesa (Daraja) checkout and an admin panel for managing products and orders.",
+    tags: [
+      {
+        name: "laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mpesa daraja",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fyndora,
+    source_code_link: "https://github.com/engugi254/fyndora",
+    live_demo_link: "https://fyndora.onrender.com/",
+  },
+ /* {
     name: "Fitness Website",
     description:
       "A website that helps a person to explore different kinds of exercises and how you can do them.",
@@ -170,7 +193,7 @@ const projects = [
     image: fitnessApp,
     source_code_link: "https://github.com/engugi254/fitnessApp",
     live_demo_link: "https://engugi254.github.io/fitnessApp",
-  },
+  },*/
   {
     name: "Marvels",
 
